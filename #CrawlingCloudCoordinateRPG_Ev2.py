@@ -71,7 +71,7 @@ def chapter_1():
 
     while chapter_playing:
         print("Status Bar: Health:", health, "Potions:", potions, "X:", x, "Y:", y, "Name:", name, "Stamina:", stamina, ". You can go North, East, South, or West with the W, A, S, and D keys. You can use potions with the P key.")
-        move = input("So,  where too? W (North), A (West), S (South), or D (East)? ! space = 5 meters").strip()
+        move = input("So,  where too? N (North), W (West), S (South), or E (East)? 1 space = 5 meters").strip()
         
         if move == "N":
             print("Ok! Going North!")
@@ -206,4 +206,5 @@ while True:
         passowrd_opening()
     elif main_story_chapter == 4 and chapter_4_complete == True:
         input("\nThank you for playing The Crawling CLoud Pre-Alpha Version 0.0.3. This is my first serious game project I've published on GitHub and really want to thank everyone for their support. Stay tuned for future alphas/betas and eventually the FULL RELEASE!!!")
+
         quit()
